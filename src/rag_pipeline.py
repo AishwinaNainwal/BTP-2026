@@ -160,6 +160,10 @@ Never introduce external knowledge or unsupported assumptions."""
     return {
         "question": question,
         "answer": answer,
+        "context": [
+            document["text"]
+            for document in retrieved_documents
+        ],
         "sources": sources
     }
 

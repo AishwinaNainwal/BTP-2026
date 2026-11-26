@@ -7,7 +7,11 @@ This project compares five answering configurations over the existing Legal and 
 Use PowerShell from the repository root and the working `.venv-win64` virtual environment with Python 3.14.
 
 ```powershell
+<<<<<<< Updated upstream
 .\.venv-win64\Scripts\Activate.ps1
+=======
+.\venv\Scripts\Activate.ps1
+>>>>>>> Stashed changes
 python --version
 python -m pip install -r requirements.txt
 ```

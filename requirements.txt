@@ -6,7 +6,7 @@ langchain
 langchain-core
 
 # ==========================================
-# OPENAI INTEGRATION
+# OPENAI-COMPATIBLE API INTEGRATION
 # ==========================================
 langchain-openai
 openai
@@ -37,6 +37,16 @@ torch>=2.6
 accelerate
 
 # ==========================================
+# LLM EVALUATION - DEEPEVAL
+# ==========================================
+deepeval
+
+# ==========================================
+# LLM JUDGE - GROQ
+# ==========================================
+groq
+
+# ==========================================
 # ENVIRONMENT VARIABLES
 # ==========================================
 python-dotenv
@@ -48,17 +58,17 @@ numpy
 scikit-learn
 pandas
 
-
 # ==========================================
-# RAG - VECTOR DATABASE AND DOCUMENT PROCESSING
+# RAG - VECTOR DATABASE AND RETRIEVAL
 # ==========================================
 chromadb
 sentence-transformers
 pymupdf
 rank-bm25
 
-
-python-dotenv
+# ==========================================
+# BACKEND AND WEB FRAMEWORK
+# ==========================================
 fastapi
 uvicorn
 jinja2
